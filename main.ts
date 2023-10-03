@@ -5,4 +5,13 @@
  * This program runs cookie clicker on microbit
 */
 
-basic.showString('Hello, World!')
+// setup
+basic.clearScreen()
+basic.showIcon(IconNames.Happy)
+
+// variables
+let numberOfCookiesClicked: number
+
+input.onButtonPressed(Button.A, function () {
+  numberOfCookiesClicked = numberOfCookiesClicked + 1
+})
