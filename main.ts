@@ -14,6 +14,8 @@ let numberOfCookiesClicked: number
 numberOfCookiesClicked = 0
 
 input.onButtonPressed(Button.A, function () {
+// process
   numberOfCookiesClicked = numberOfCookiesClicked + 1
+// output 
   basic.showNumber(numberOfCookiesClicked)
 })
