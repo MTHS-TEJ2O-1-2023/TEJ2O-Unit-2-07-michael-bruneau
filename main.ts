@@ -19,3 +19,10 @@ input.onButtonPressed(Button.A, function () {
 // output 
   basic.showNumber(numberOfCookiesClicked)
 })
+
+input.onButtonPressed(Button.B, function () {
+// process
+  numberOfCookiesClicked = 0
+// output
+  basic.showNumber(numberOfCookiesClicked)
+})
