@@ -11,7 +11,9 @@ basic.showIcon(IconNames.Happy)
 
 // variables
 let numberOfCookiesClicked: number
+numberOfCookiesClicked = 0
 
 input.onButtonPressed(Button.A, function () {
   numberOfCookiesClicked = numberOfCookiesClicked + 1
+  basic.showNumber(numberOfCookiesClicked)
 })
